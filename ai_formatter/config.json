@@ -1,0 +1,56 @@
+{
+    "ai_providers": {
+        "openai": {
+            "api_key": "YOUR_OPENAI_API_KEY",
+            "model": "gpt-4",
+            "temperature": 0.7
+        },
+        "anthropic": {
+            "api_key": "YOUR_ANTHROPIC_API_KEY",
+            "model": "claude-3-opus-20240229",
+            "temperature": 0.7
+        },
+        "deepseek": {
+            "api_key": "YOUR_DEEPSEEK_API_KEY",
+            "model": "deepseek-v3",
+            "temperature": 0.7
+        },
+        "qwen": {
+            "api_key": "YOUR_QWEN_API_KEY",
+            "model": "qwen-max",
+            "temperature": 0.7
+        },
+        "siliconflow": {
+            "api_key": "YOUR_SILICONFLOW_API_KEY",
+            "model": "qwen2-7b",
+            "temperature": 0.7
+        },
+        "ollama": {
+            "model_name": "llama3",
+            "base_url": "http://localhost:11434"
+        }
+    },
+    "default_formatting": {
+        "font_family": "宋体",
+        "font_size": 12,
+        "line_spacing": 1.5,
+        "paragraph_spacing": 10,
+        "indent_first_line": true,
+        "indent_size": 2,
+        "heading_font_family": "黑体"
+    },
+    "document_types": {
+        "word": {
+            "extension": ".docx",
+            "processor": "WordProcessor"
+        },
+        "markdown": {
+            "extension": ".md",
+            "processor": "MarkdownProcessor"
+        },
+        "pdf": {
+            "extension": ".pdf",
+            "processor": "PDFProcessor"
+        }
+    }
+}
